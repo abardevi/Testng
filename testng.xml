@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="userid" value="standard_user"/>
+      <parameter name="password" value="secret_sauce"/>
+  <test thread-count="5" name="para.xml">
+    <classes>
+      <class name="testng.Usingparameters"/>
+    </classes>
+  </test> <!-- para.xml -->
+  
+  
+</suite> <!-- Suite -->
